@@ -273,4 +273,4 @@
 //     const sums = addData.apply(null, informData); // Equivalent to add(2, 3, 4)
 //     console.log(sums); // Outputs: 9
 
-const temperature = [3,5,6,7,"error",-5,-4-,-6]
+const temperature = [3,5,6,7,"error",-5,-4-,-6];
