@@ -273,4 +273,41 @@
 //     const sums = addData.apply(null, informData); // Equivalent to add(2, 3, 4)
 //     console.log(sums); // Outputs: 9
 
-const temperature = [3,5,6,7,"error",-5,-4-,-6];
+// // const temperature = [3,5,6,7,"error",-5,-4,-6];
+// const numberArray = [4, 7, 1, 9, 2, 5,90,0,-3,-20];
+// // const maxValue = Math.max(...numbers);
+
+// // console.log('The maximum value in the array is:', maxValue);
+
+// const calMax = function(number){
+//   let max = number[0];
+//   for(i=0;i<=number.length;i++){
+//     if(number[i]<max){
+//       max=number[i]
+//     }
+//   }console.log(max)
+// }
+// calMax(numberArray);
+
+
+// let value = Math.max(...numberArray);
+// console.log(value);
+
+
+
+// // console problem
+
+const data1 = [17,21,23];
+
+const data2 = [12,5,-5,0,4];
+
+
+let printForecast = function(arr){
+let string = "";
+for(let i = 0;i < arr.length;i++){
+  string+=`${arr[i]}°c in ${i+1}days ...`
+}return string;
+}
+
+let result = printForecast(data2);
+console.log("..."+result);
